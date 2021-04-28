@@ -19,7 +19,7 @@ To test the retrained model run:
 python3 classify_image.py \
 --model retrained_imprinting_model.tflite \
 --label retrained_imprinting_model.txt \
---image test_images/cat.jpg
+--i test_images/cat.jpg
 ```
 
 To add your own class to train
