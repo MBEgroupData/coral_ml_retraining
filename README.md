@@ -22,5 +22,4 @@ python3 classify_image.py \
 --i test_images/cat.jpg
 ```
 
-To add your own class to train
-just create a folder inside of the open_image_v4_subset, and put your images in that folder and re-run the impriminting learning command. 
+To add your own class to train just create a folder inside of the open_image_v4_subset, and put your images in that folder and re-run the impriminting learning command. You should have at least 5 images in a category in order to get the best training results from the model, and the maximum number of allowed images for the training set is 200. 
