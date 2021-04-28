@@ -23,4 +23,4 @@ python3 classify_image.py \
 ```
 
 To add your own class to train
-just create a folder inside of the open_image_v4_subset, and put your images in that folder.
+just create a folder inside of the open_image_v4_subset, and put your images in that folder and re-run the impriminting learning command. 
