@@ -6,9 +6,9 @@ First clone this repository and cd into the cloned folder.
 To retrain this model so it only will classify the image classes that we specify. Run this command in
 a terminal:
 ```
-  python3 imprinting_learning.py \\
-  --model_path mobilenet_edgetpu.tflite \\
-  --data open_image_v4_subset \\
+  python3 imprinting_learning.py \
+  --model_path mobilenet_edgetpu.tflite \
+  --data open_image_v4_subset \
   --output retrained_imprinting_model.tflite
 ```
 This will retrain the MobileNet model to identify the classes that are specified
